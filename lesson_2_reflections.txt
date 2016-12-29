@@ -1,0 +1,9 @@
+What happens when you initialize a repository? Why do you need to do it?
+By initializaling a repository a simple directory or folder converts into a git repository by adding a file .git in the folder 
+which possibly contains the settings and history details of each file in the repository.
+If we don't initialize a repository then it will be a simple directory and no git commands work on that directory and concept of 
+version control fails.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Staging area is the intermediate stage between working directory and repository as it offers the user to save that files 
+that have one logical change. It is abstract directory not visible to the user. User cannot access the contents of the staging area directly.
