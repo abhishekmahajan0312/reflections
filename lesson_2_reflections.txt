@@ -7,3 +7,7 @@ version control fails.
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 Staging area is the intermediate stage between working directory and repository as it offers the user to save that files 
 that have one logical change. It is abstract directory not visible to the user. User cannot access the contents of the staging area directly.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Git allows us to add as many files to the staging area that are responsible for one logical change. We can add
+the files in the staging area one by one and then we can commit the files all at once for one logical change. 
